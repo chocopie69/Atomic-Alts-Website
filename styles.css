@@ -1,0 +1,355 @@
+h1 {
+    font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    line-height: 26.4px;
+}
+
+h3 {
+    font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    line-height: 15.4px;
+}
+
+p {
+    font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+blockquote {
+    font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+    font-size: 21px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+pre {
+    font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 18.5714px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.heading1 {
+    font-size: 64px;
+    font-family: raleway;
+    font-weight: 500;
+    padding-left: 26vw;
+    filter: drop-shadow(0 0 5px rgba(255, 255, 255, 0.308));
+    position: absolute;
+    width: 50%;
+}
+
+.heading2 {
+    font-size: 33px;
+    font-family: raleway;
+    font-weight: 70;
+    padding-top: 70px;
+    padding-left: 26.2vw;
+    position: absolute;
+    width: 50%;
+}
+
+.heading3 {
+    font-size: 42px;
+    font-family: raleway;
+    font-weight: 70;
+    position: absolute;
+    width: 50%;
+}
+
+.buyButton {
+    margin-top: 143px;
+    font-size: 26px;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    margin-left: 26.4vw;
+    background-color: #7c15dd;
+    border-radius: 120px;
+    text-align: center;
+    width: 200px;
+    padding: 26px;
+    bottom: 1000px;
+    filter: drop-shadow(0 0 14px #7c15dd);
+}
+
+.discordButton {
+    margin-top: 143px;
+    font-size: 26px;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    margin-left: 12vw;
+    background-color: #7c15dd;
+    border-radius: 120px;
+    text-align: center;
+    width: 200px;
+    padding: 26px;
+    bottom: 1000px;
+    filter: drop-shadow(0 0 14px #7c15dd);
+}
+
+@media (max-width: 800px) {
+    .buyButton {
+
+        margin-top: 170px;
+        margin-left: 52vw;
+    }
+
+    .riseHeading1 {
+        padding-left: 20vw;
+    }
+
+    .riseHeading2 {
+        padding-left: 20vw;
+    }
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.spacer {
+    height: calc(20vh)
+}
+
+.spacer2 {
+    height: calc(10vh)
+}
+
+.spacer3 {
+    height: calc(40vh);
+}
+
+.spacer4 {
+    height: calc(5vh);
+}
+
+.landingPage {
+    display: inline;
+}
+
+.body {
+    background-color: rgb(17, 17, 17);
+    color: white;
+    text-align: center;
+    height: 340vh;
+}
+
+.body2 {
+    background-color: rgb(17, 17, 17);
+    color: white;
+    text-align: center;
+    height: 10vh;
+}
+
+.text-container {
+    width: 60%;
+    height: 100px;
+    background-color: rgb(27, 27, 27);
+    border-radius: 8px;
+    text-align: left;
+    padding: 15px;
+}
+
+.tos {
+    background-color: rgb(17, 17, 17);
+    color: white;
+    text-align: center;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.privacy {
+    background-color: rgb(17, 17, 17);
+    color: white;
+    text-align: center;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.refund {
+    background-color: rgb(17, 17, 17);
+    color: white;
+    text-align: center;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.row {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+}
+
+.row2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.boxleft {
+    margin-top: 80px;
+    font-size: 26px;
+    font-family: "Segoe UI";
+    margin-left: 16.5vw;
+    background-color: #242629;
+    border-radius: 8px;
+    text-align: center;
+    width: 380px;
+    padding: 0px;
+    bottom: 1000px;
+}
+
+.boxright {
+    margin-top: 80px;
+    font-size: 26px;
+    font-family: "Segoe UI";
+    margin-left: 11.5vw;
+    background-color: #242629;
+    border-radius: 8px;
+    text-align: center;
+    width: 380px;
+    padding: 0px;
+    bottom: 1000px;
+}
+
+.boxDescription {
+    margin-top: 0px;
+    font-size: 17px;
+    font-family: "Segoe UI";
+    text-align: center;
+}
+
+.line {
+    margin-top: 0px;
+    width:380px;
+    height:5px; 
+    position:relative;
+    line-height:3px;
+    background:linear-gradient(to bottom right, #7c15dd, #7c15dd);
+}
+
+.headings {
+    color: white;
+}
+
+.boxleft {
+    margin-top: 80px;
+    font-size: 26px;
+    font-family: "Segoe UI";
+    margin-left: 16.5vw;
+    background-color: #242629;
+    border-radius: 8px;
+    text-align: center;
+    width: 380px;
+    padding: 0px;
+    bottom: 1000px;
+}
+
+.bodyHeader {
+    font-size: 50px;
+    font-family: raleway;
+    font-weight: 400;
+    padding-left: 25vw;
+    position: absolute;
+    width: 50%;
+}
+
+.bodyHeading {
+    padding-top: 50px;
+    font-size: 50px;
+    font-weight: 400;
+    margin-bottom: 0px;
+    transition: all 1s;
+    line-height: 45px;
+}
+
+.tag {
+    opacity: 0;
+    transform: translate(0, 10vh);
+    transition: all 1s;
+}
+
+.tag.visible {
+    opacity: 1;
+    transform: translate(0, 0);
+}
+
+.bodyHeading.visible {
+    opacity: 1;
+    transform: translate(0, 0);
+}
+
+.bodySubheading {
+    font-size: 35px;
+    font-weight: 20;
+}
+
+.quotes {
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.quote {
+    padding-left: 130px;
+    padding-right: 5px;
+    max-width: 80vw;
+
+    font-size: 28px;
+    font-family: "Segoe UI";
+    font-weight: 130;
+    line-height: 35px;
+}
+
+.quote2 {
+    top: 40px;
+}
+
+.bottom {
+    background-color: rgb(27, 27, 27);
+    color: rgb(228, 228, 228);
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    height: 100px;
+    padding-left: 120px;
+    font-size: 19px;
+    font-family: "Arial";
+}
+
+.bottomtext {
+    padding-top: 3px;
+    padding-left: 21px;
+}
+
+.bottomtext2 {
+    padding-top: 4px;
+    padding-left: 450px;
+}
