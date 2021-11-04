@@ -52,7 +52,7 @@ body {
     font-size: 64px;
     font-family: raleway;
     font-weight: 500;
-    padding-left: 26vw;
+    padding-left: 25.5vw;
     filter: drop-shadow(0 0 5px rgba(255, 255, 255, 0.308));
     position: absolute;
     width: 50%;
@@ -63,7 +63,7 @@ body {
     font-family: raleway;
     font-weight: 70;
     padding-top: 70px;
-    padding-left: 26.2vw;
+    padding-left: 25.7vw;
     position: absolute;
     width: 50%;
 }
@@ -78,9 +78,10 @@ body {
 
 .buyButton {
     margin-top: 143px;
+    margin-right: 120px;
+    margin-left: 28px;
     font-size: 26px;
     font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-    margin-left: 26.4vw;
     background-color: #7c15dd;
     border-radius: 120px;
     text-align: center;
@@ -94,7 +95,6 @@ body {
     margin-top: 143px;
     font-size: 26px;
     font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-    margin-left: 12vw;
     background-color: #7c15dd;
     border-radius: 120px;
     text-align: center;
@@ -201,21 +201,30 @@ a {
 }
 
 .row {
-    flex-grow: 1;
     display: flex;
     flex-direction: row;
+    justify-content: center;
 }
 
 .row2 {
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
 }
 
-.boxleft {
+.row3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    margin-left: 20px;
+}
+
+.box {
     margin-top: 80px;
+    margin-left: 2vw;
     font-size: 26px;
-    font-family: "Segoe UI";
-    margin-left: 16.5vw;
+    font-family: "Segoe UI";;
     background-color: #242629;
     border-radius: 8px;
     text-align: center;
@@ -224,11 +233,11 @@ a {
     bottom: 1000px;
 }
 
-.boxright {
+.box2 {
     margin-top: 80px;
     font-size: 26px;
     font-family: "Segoe UI";
-    margin-left: 11.5vw;
+    margin-left: 16.5vw;
     background-color: #242629;
     border-radius: 8px;
     text-align: center;
@@ -255,19 +264,6 @@ a {
 
 .headings {
     color: white;
-}
-
-.boxleft {
-    margin-top: 80px;
-    font-size: 26px;
-    font-family: "Segoe UI";
-    margin-left: 16.5vw;
-    background-color: #242629;
-    border-radius: 8px;
-    text-align: center;
-    width: 380px;
-    padding: 0px;
-    bottom: 1000px;
 }
 
 .bodyHeader {
