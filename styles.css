@@ -161,11 +161,12 @@ a {
 
 .text-container {
     width: 60%;
-    height: 100px;
+    height: 38vh;
     background-color: rgb(27, 27, 27);
     border-radius: 8px;
     text-align: left;
     padding: 15px;
+    border-radius: 12px;
 }
 
 .tos {
@@ -176,6 +177,8 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-size: 21px;
+    font-family: "Segoe UI";
 }
 
 .privacy {
@@ -187,6 +190,8 @@ a {
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    font-size: 21px;
+    font-family: "Segoe UI";
 }
 
 .refund {
@@ -198,6 +203,22 @@ a {
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    font-size: 21px;
+    font-family: "Segoe UI";
+}
+
+.compliments {
+    background-color: rgb(17, 17, 17);
+    color: white;
+    text-align: center;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-size: 26px;
+    font-family: "Segoe UI";
+    font-weight: 130;
 }
 
 .row {
@@ -222,7 +243,8 @@ a {
 
 .box {
     margin-top: 80px;
-    margin-left: 2vw;
+    margin-left: 0.5vw;
+    margin-right: 0vw;
     font-size: 26px;
     font-family: "Segoe UI";;
     background-color: #242629;
@@ -237,7 +259,7 @@ a {
     margin-top: 80px;
     font-size: 26px;
     font-family: "Segoe UI";
-    margin-left: 16.5vw;
+    margin-left: 8vw;
     background-color: #242629;
     border-radius: 8px;
     text-align: center;
@@ -280,6 +302,15 @@ a {
     font-size: 50px;
     font-weight: 400;
     margin-bottom: 0px;
+    transition: all 1s;
+    line-height: 45px;
+}
+
+.bodyHeading2 {
+    padding-top: 65vh;
+    font-size: 50px;
+    font-weight: 400;
+    margin-bottom: 70px;
     transition: all 1s;
     line-height: 45px;
 }
