@@ -43,6 +43,22 @@ pre {
     line-height: 18.5714px;
 }
 
+::-webkit-scrollbar {
+    width: 5px;
+}
+  
+::-webkit-scrollbar-track {
+    background: rgb(43, 40, 40)
+}
+  
+::-webkit-scrollbar-thumb {
+    background: rgb(144, 8, 235);
+}
+  
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(106, 13, 160);
+}
+
 body {
     margin: 0px;
     padding: 0px;
