@@ -108,14 +108,15 @@ body {
 }
 
 .discordButton {
-    margin-top: 143px;
+    margin-top: 185px;
+    margin-left:18px;
     font-size: 26px;
     font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
     background-color: #7c15dd;
     border-radius: 120px;
     text-align: center;
-    width: 200px;
-    padding: 26px;
+    width: 260px;
+    padding: 35px;
     bottom: 1000px;
     filter: drop-shadow(0 0 14px #7c15dd);
 }
@@ -263,7 +264,7 @@ a {
     margin-right: 0vw;
     font-size: 26px;
     font-family: "Segoe UI";;
-    background-color: #242629;
+    background-color: #1e1f20;
     border-radius: 8px;
     text-align: center;
     width: 380px;
@@ -275,8 +276,8 @@ a {
     margin-top: 80px;
     font-size: 26px;
     font-family: "Segoe UI";
-    margin-left: 8vw;
-    background-color: #242629;
+    margin-left: 12vw;
+    background-color: #1e1f20;
     border-radius: 8px;
     text-align: center;
     width: 380px;
@@ -294,7 +295,7 @@ a {
 .line {
     margin-top: 0px;
     width:380px;
-    height:5px; 
+    height:3px; 
     position:relative;
     line-height:3px;
     background:linear-gradient(to bottom right, #7c15dd, #7c15dd);
