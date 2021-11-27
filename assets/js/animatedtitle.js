@@ -11,4 +11,4 @@ function animateTitle(Title = "Hello, World!", delay = 300) {
         document.title = newtitle;
     }, delay)
 }
-animateTitle("atomicshop.cf",400);
+animateTitle("atomicalts.cf",400);
